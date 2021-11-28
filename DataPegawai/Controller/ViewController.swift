@@ -21,6 +21,7 @@ class ViewController: UIViewController, UISearchControllerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        print("hello")
     }
     override func viewWillAppear(_ animated: Bool) {
         do {
